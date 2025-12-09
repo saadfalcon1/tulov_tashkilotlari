@@ -131,7 +131,7 @@ export function BanksTable({ data }: BanksTableProps) {
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
         <div>
           <h3 className="text-white mb-2">
-            Barcha bank mobil ilovalarining batafsil jadvali
+            Barcha to'lov tashkilotlari mobil ilovalarining batafsil jadvali
           </h3>
           <p className="text-white text-sm">{filteredData.length} ta ilova</p>
         </div>

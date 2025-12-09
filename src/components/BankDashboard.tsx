@@ -75,7 +75,7 @@ export function BankDashboard() {
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/5 via-blue-500/5 to-indigo-500/5 blur-3xl"></div>
             <div className="relative z-10">
               <h1 className="text-white mb-2 bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent group-hover:from-cyan-300 group-hover:via-blue-300 group-hover:to-indigo-300 transition-all">
-                App Store: bank mobil ilovalari tahlili
+                App Store: To'lov tashkilotlari ilovalarining tahlili
               </h1>
               <p className="text-white">To'lov tashkilotlari ilovalarining to‘liq statistikasi va professional tahlili</p>
             </div>

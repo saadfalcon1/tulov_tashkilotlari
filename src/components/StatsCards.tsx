@@ -26,7 +26,7 @@ export function StatsCards({
 
   const stats = [
     {
-      title: `${prefix}: Jami to‘lov tashkilotlarining  ilovalari soni`,
+      title: `${prefix}: Jami to‘lov tashkilotlarining  mobil ilovlalari soni`,
       value: totalBanks.toLocaleString() + " ta",
       icon: Building2,
       gradient: "from-blue-500 via-blue-600 to-cyan-500",
@@ -40,7 +40,7 @@ export function StatsCards({
       detail: "",
     },
     {
-      title: `${prefix}: To‘lov tashkilotlarining mobil ilovalarining o’rtacha reyting bahosi`,
+      title: `${prefix}: To‘lov tashkilotlari mobil ilovalarining o‘rtacha reyting bahosi`,
       value: averageRating.toFixed(1),
       icon: Star,
       gradient: "from-yellow-500 via-yellow-600 to-orange-500",
