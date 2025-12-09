@@ -24,7 +24,7 @@ export interface BankData {
 
 export const bankData: BankData[] = [
   {
-    name: "click",
+    name: "Click",
     appId: "Click SuperApp (Google Play)",
     totalRaters: 617_927,
     ratings: { five: 554_492, four: 27_443, three: 11_814, two: 5_858, one: 18_320 },
