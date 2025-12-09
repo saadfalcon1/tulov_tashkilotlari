@@ -65,9 +65,9 @@ export function RatingDistribution({ data, detailed = false, platform }: RatingD
 
   if (detailed) {
     const platformTitle = platform === "appStore"
-      ? "App Store: Reyting bahosi eng yuqori bo’lgan TOP-15 bank mobil ilovasi"
+      ? "App Store: Reyting bahosi eng yuqori bo’lgan TOP-15 to‘lov tashkilotining mobil ilovasi"
       : platform === "googlePlay"
-      ? "Google Play: Reyting bahosi eng yuqori bo’lgan TOP-15 bank mobil ilovasi"
+      ? "Google Play: Reyting bahosi eng yuqori bo’lgan TOP-15 to‘lov tashkilotining mobil ilovasi"
       : "O'rtacha bahosi eng yuqori Top 15 bank";
     return (
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">

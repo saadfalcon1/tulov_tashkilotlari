@@ -26,7 +26,7 @@ export function StatsCards({
 
   const stats = [
     {
-      title: `${prefix}: Jami bank ilovalari soni`,
+      title: `${prefix}: Jami to‘lov tashkilotlarining  ilovalari soni`,
       value: totalBanks.toLocaleString() + " ta",
       icon: Building2,
       gradient: "from-blue-500 via-blue-600 to-cyan-500",
@@ -40,14 +40,14 @@ export function StatsCards({
       detail: "",
     },
     {
-      title: `${prefix}: Bank mobil ilovalarining o’rtacha reyting bahosi`,
+      title: `${prefix}: To‘lov tashkilotlarining mobil ilovalarining o’rtacha reyting bahosi`,
       value: averageRating.toFixed(1),
       icon: Star,
       gradient: "from-yellow-500 via-yellow-600 to-orange-500",
       detail: "5 (yulduzlik tizimda)",
     },
     {
-      title: `${prefix}: Eng yuqori yakuniy ball olgan bank mobil ilovasi`,
+      title: `${prefix}: Eng yuqori yakuniy ball olgan to‘lov tashkilotining ilovasi`,
       value: topRating.toFixed(1),
       icon: Trophy, // ←←← KUBOK SHU YERGA QO'YILDI
       gradient: "from-green-500 via-green-600 to-emerald-500",

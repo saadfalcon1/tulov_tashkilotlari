@@ -97,7 +97,7 @@ export function CombinedPlatformsTable({ googlePlayData, appStoreData }: Combine
               <TableHead className="text-white text-center w-16 text-base font-semibold">№</TableHead>
 
               <TableHead className="text-white min-w-[200px] text-base font-semibold">
-                <SortButton field="name" label="Bank nomi" />
+                <SortButton field="name" label="To'lov tashkilotlari nomi" />
               </TableHead>
 
               <TableHead className="text-white min-w-[200px] hidden sm:table-cell text-base font-semibold">
@@ -178,9 +178,9 @@ export function CombinedPlatformsTable({ googlePlayData, appStoreData }: Combine
                   <Badge
                     variant="outline"
                     className={`${
-                      bank.category === "Davlat banki"
+                      bank.category === "To‘lov tashkiloti"
                         ? "bg-green-500/10 text-green-300 border-green-500/30"
-                        : bank.category === "Xususiy bank"
+                        : bank.category === "To‘lov tashkiloti"
                         ? "bg-blue-500/10 text-blue-300 border-blue-500/30"
                         : "bg-blue-500/10 text-blue-300 border-blue-500/30"
                     }`}
