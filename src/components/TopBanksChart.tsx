@@ -29,8 +29,8 @@ export function TopBanksChart({ data, platform = "googlePlay" }: TopBanksChartPr
   ];
 
   const platformTitle = platform === "appStore"
-    ? "App Store: Yakuniy ball bo‘yicha Top-15 to‘lov tashkilotlarining <br> mobil ilovalari"
-    : "Google Play: Yakuniy ball bo‘yicha Top-15 to‘lov tashkilotlarining <br> mobil ilovalari";
+    ? "App Store: Yakuniy ball bo‘yicha Top-15 to‘lov tashkilotlarining mobil ilovalari"
+    : "Google Play: Yakuniy ball bo‘yicha Top-15 to‘lov tashkilotlarining  mobil ilovalari";
 
   return (
     <Card className="backdrop-blur-2xl bg-gradient-to-br from-white/5 to-white/10 border border-white/20 p-6 hover:border-white/30 transition-all duration-300">

@@ -47,7 +47,7 @@ export function StatsCards({
       detail: "5 (yulduzlik tizimda)",
     },
     {
-      title: `${prefix}: Eng yuqori yakuniy ball olgan to‘lov tashkilotining ilovasi`,
+      title: `${prefix}: Eng yuqori yakuniy ball olgan to‘lov tashkilotining mobil ilovasi`,
       value: topRating.toFixed(1),
       icon: Trophy, // ←←← KUBOK SHU YERGA QO'YILDI
       gradient: "from-green-500 via-green-600 to-emerald-500",
