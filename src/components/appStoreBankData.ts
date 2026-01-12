@@ -12,13 +12,13 @@ export const appStoreBankData = [
     horizontalScore: 97.2,
     verticalScore: 4.87,
     verticalScorePercent: 97.43,
-    volumeValue: 8,          // ~38k reytingga nisbatan o'rtacha (o'zingiz formulaga qarab sozlaysiz)
-    totalValue: 96.0,        // umumiy scoring metodikangizga moslab
+    volumeValue: 8,
+    totalValue: 96.0,
     lastMonthDownloads: 60_000,
     lastMonthRaters: 380,
-    lastMonthReviews: 38,    // jadvaldagi lastMonthComments
-    activityScore: 85.56,
-    finalScore: 93.4,
+    lastMonthReviews: 7,
+    activityScore: 72.9,
+    finalScore: 89.18,
     category: "To'lov servisi"
   },
   {
@@ -60,9 +60,9 @@ export const appStoreBankData = [
     totalValue: 94.8,
     lastMonthDownloads: 60_000,
     lastMonthRaters: 200,
-    lastMonthReviews: 20,
-    activityScore: 77.23,
-    finalScore: 89.29,
+    lastMonthReviews: 6,
+    activityScore: 67.51,
+    finalScore: 86.05,
     category: "To'lov servisi"
   },
   {
@@ -80,11 +80,11 @@ export const appStoreBankData = [
     verticalScorePercent: 95.34,
     volumeValue: 6,
     totalValue: 95.2,
-    lastMonthDownloads: 60_000,
+    lastMonthDownloads: 10_000,
     lastMonthRaters: 205,
-    lastMonthReviews: 20,
-    activityScore: 77.41,
-    finalScore: 89.78,
+    lastMonthReviews: 2,
+    activityScore: 58.26,
+    finalScore: 83.4,
     category: "To'lov servisi"
   },
   {
@@ -104,9 +104,9 @@ export const appStoreBankData = [
     totalValue: 99.2,
     lastMonthDownloads: 210_000,
     lastMonthRaters: 926,
-    lastMonthReviews: 93,
-    activityScore: 93.36,
-    finalScore: 96.36,
+    lastMonthReviews: 6,
+    activityScore: 75.76,
+    finalScore: 90.5,
     category: "SuperApp"
   },
   {
@@ -192,9 +192,9 @@ export const appStoreBankData = [
     totalValue: 100.0,
     lastMonthDownloads: 210_000,
     lastMonthRaters: 3_479,
-    lastMonthReviews: 348,
-    activityScore: 97.98,
-    finalScore: 98.3,
+    lastMonthReviews: 15,
+    activityScore: 85.58,
+    finalScore: 94.16,
     category: "SuperApp"
   },
   {
@@ -214,9 +214,9 @@ export const appStoreBankData = [
     totalValue: 90.0,
     lastMonthDownloads: 200_000,
     lastMonthRaters: 92,
-    lastMonthReviews: 9,
-    activityScore: 64.93,
-    finalScore: 82.39,
+    lastMonthReviews: 11,
+    activityScore: 66.6,
+    finalScore: 82.94,
     category: "To'lov servisi"
   },
   {

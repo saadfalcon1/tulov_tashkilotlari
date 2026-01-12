@@ -41,9 +41,9 @@ export const bankData: BankData[] = [
     volumeValue: 0,
     lastMonthDownloads: 220_000,
     lastMonthRaters: 2_532,
-    lastMonthComments: 253,
-    activityScore: 97.32,
-    finalScore: 96.31,
+    lastMonthComments: 22,
+    activityScore: 88.17,
+    finalScore: 93.26,
     category: "To‘lov tashkiloti"
   },
   {
@@ -87,9 +87,9 @@ export const bankData: BankData[] = [
     volumeValue: 0,
     lastMonthDownloads: 33_000,
     lastMonthRaters: 458,
-    lastMonthComments: 46,
-    activityScore: 87.09,
-    finalScore: 87.39,
+    lastMonthComments: 2,
+    activityScore: 65.27,
+    finalScore: 80.11,
     category: "To‘lov tashkiloti"
   },
   {
@@ -109,10 +109,10 @@ export const bankData: BankData[] = [
     verticalScorePercent: 92.87,
     volumeValue: 0,
     lastMonthDownloads: 78_000,
-    lastMonthRaters: 1_302,
-    lastMonthComments: 130,
-    activityScore: 94.82,
-    finalScore: 94.63,
+    lastMonthRaters: 155,
+    lastMonthComments: 4,
+    activityScore: 62.7,
+    finalScore: 83.92,
     category: "To‘lov tashkiloti"
   },
   {
@@ -133,9 +133,9 @@ export const bankData: BankData[] = [
     volumeValue: 0,
     lastMonthDownloads: 390_000,
     lastMonthRaters: 6_333,
-    lastMonthComments: 633,
-    activityScore: 98.88,
-    finalScore: 97.58,
+    lastMonthComments: 23,
+    activityScore: 89.3,
+    finalScore: 94.38,
     category: "To‘lov tashkiloti"
   },
   {
@@ -179,9 +179,9 @@ export const bankData: BankData[] = [
     volumeValue: 0,
     lastMonthDownloads: 2_100,
     lastMonthRaters: 4,
-    lastMonthComments: 0,
-    activityScore: 23.86,
-    finalScore: 35.39,
+    lastMonthComments: 1,
+    activityScore: 26.89,
+    finalScore: 36.4,
     category: "To‘lov tashkiloti"
   },
   {
@@ -202,9 +202,9 @@ export const bankData: BankData[] = [
     volumeValue: 0,
     lastMonthDownloads: 27_000,
     lastMonthRaters: 904,
-    lastMonthComments: 90,
-    activityScore: 92.16,
-    finalScore: 92.13,
+    lastMonthComments: 12,
+    activityScore: 80.34,
+    finalScore: 88.19,
     category: "To‘lov tashkiloti"
   },
   {
@@ -225,9 +225,9 @@ export const bankData: BankData[] = [
     volumeValue: 0,
     lastMonthDownloads: 360_000,
     lastMonthRaters: 7_492,
-    lastMonthComments: 749,
-    activityScore: 99.03,
-    finalScore: 97.44,
+    lastMonthComments: 30,
+    activityScore: 91.14,
+    finalScore: 94.81,
     category: "To‘lov tashkiloti"
   },
   {
@@ -247,10 +247,10 @@ export const bankData: BankData[] = [
     verticalScorePercent: 93.93,
     volumeValue: 0,
     lastMonthDownloads: 900_000,
-    lastMonthRaters: 1_547,
-    lastMonthComments: 155,
-    activityScore: 95.92,
-    finalScore: 94.35,
+    lastMonthRaters: 200,
+    lastMonthComments: 21,
+    activityScore: 78.1,
+    finalScore: 88.41,
     category: "To‘lov tashkiloti"
   },
   {

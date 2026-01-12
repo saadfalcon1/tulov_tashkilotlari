@@ -159,7 +159,7 @@ export function BanksTable({ data }: BanksTableProps) {
                 {/* Faqat Bank nomi sortable + sticky */}
                 <SortHeader
                   field="name"
-                  label="Bank nomi"
+                  label="To'lov tashkilotlari nomi"
                   leftSticky={60}
                   width="260px"
                 />
