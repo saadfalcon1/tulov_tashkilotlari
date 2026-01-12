@@ -138,7 +138,7 @@ export function BanksTable({ data }: BanksTableProps) {
         <div className="relative w-full md:w-auto">
           <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-300" />
           <Input
-            placeholder="Bank, ilova yoki kategoriya bo'yicha qidirish..."
+            placeholder="Tashkilot nomi, ilova yoki kategoriya bo'yicha qidirish..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             className="pl-10 bg-white/5 border-white/20 text-white placeholder:text-gray-300 w-full md:min-w-[350px]"
