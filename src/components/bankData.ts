@@ -38,7 +38,7 @@ export const bankData: BankData[] = [
     horizontalScore: 95.4,
     verticalScore: 4.81,
     verticalScorePercent: 96.2,
-    volumeValue: 0, // o'zingiz formula bilan to'ldirasiz
+    volumeValue: 0,
     lastMonthDownloads: 220_000,
     lastMonthRaters: 2_532,
     lastMonthComments: 253,
@@ -185,29 +185,6 @@ export const bankData: BankData[] = [
     category: "To‘lov tashkiloti"
   },
   {
-    name: "OPEN",
-    appId: "Open Рассрочка ",
-    totalRaters: 10_855,
-    ratings: {
-      five: 9_615,
-      four: 515,
-      three: 221,
-      two: 70,
-      one: 434
-    },
-    averageRating: 4.73,
-    horizontalScore: 94.6,
-    verticalScore: 2.6,
-    verticalScorePercent: 52.05,
-    volumeValue: 0,
-    lastMonthDownloads: 5_000,
-    lastMonthRaters: 109,
-    lastMonthComments: 11,
-    activityScore: 62.62,
-    finalScore: 69.76,
-    category: "To‘lov tashkiloti"
-  },
-  {
     name: "OSON",
     appId: "OSON - Transfers and Payments ",
     totalRaters: 90_377,
@@ -343,29 +320,6 @@ export const bankData: BankData[] = [
     lastMonthComments: 2,
     activityScore: 36.13,
     finalScore: 49.76,
-    category: "To‘lov tashkiloti"
-  },
-  {
-    name: "SMART MARKET",
-    appId: "Smart Market ",
-    totalRaters: 58,
-    ratings: {
-      five: 36,
-      four: 1,
-      three: 1,
-      two: 1,
-      one: 19
-    },
-    averageRating: 3.59,
-    horizontalScore: 71.8,
-    verticalScore: 0.03,
-    verticalScorePercent: 0.58,
-    volumeValue: 0,
-    lastMonthDownloads: 30,
-    lastMonthRaters: 1,
-    lastMonthComments: 0,
-    activityScore: 1.3,
-    finalScore: 24.56,
     category: "To‘lov tashkiloti"
   },
   {

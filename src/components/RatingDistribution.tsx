@@ -44,7 +44,7 @@ export function RatingDistribution({ data, detailed = false, platform }: RatingD
   // Sort by average rating in descending order (highest to lowest) for visual consistency
   const topRatedBanks = [...data]
     .sort((a, b) => b.averageRating - a.averageRating)
-    .slice(0, 15)
+    .slice(0, 5)
     .map(bank => {
       const five = bank.ratings?.five ?? bank.rating5 ?? 0;
       const fiveStarPercent = bank.totalRaters > 0 
@@ -65,9 +65,9 @@ export function RatingDistribution({ data, detailed = false, platform }: RatingD
 
   if (detailed) {
     const platformTitle = platform === "appStore"
-      ? "App Store: Reyting bahosi eng yuqori bo’lgan TOP-15 to‘lov tashkilotining mobil ilovasi"
+      ? "App Store: Reyting bahosi eng yuqori bo’lgan TOP-5 to‘lov tashkilotining mobil ilovasi"
       : platform === "googlePlay"
-      ? "Google Play: Reyting bahosi eng yuqori bo’lgan TOP-15 to‘lov tashkilotining mobil ilovasi"
+      ? "Google Play: Reyting bahosi eng yuqori bo’lgan TOP-5 to‘lov tashkilotining mobil ilovasi"
       : "O'rtacha bahosi eng yuqori Top 15 bank";
     return (
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
